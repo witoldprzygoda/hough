@@ -1,0 +1,19 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Image processing
+scikit-image>=0.18.0
+
+# Plotting
+matplotlib>=3.4.0
+
+# ROOT file handling
+uproot>=4.0.0
+
+# Particle physics units
+hepunits>=2.0.0
+
+# Optional: Particle database (commented out as per original notebook)
+# particle==0.25.4
