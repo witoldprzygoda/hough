@@ -194,7 +194,7 @@ class HoughAnalysisFacade:
 
         # Update track reconstruction status
         matched_count = self._hough_matcher.update_track_reconstruction_status(
-            true_tracks,  # Update original collection
+            filtered_tracks,  # Update filtered collection (changes propagate to original)
             assignment_mask
         )
 
