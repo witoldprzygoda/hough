@@ -3,6 +3,7 @@ Repository for training data persistence.
 """
 
 from pathlib import Path
+from typing import Tuple
 import numpy as np
 
 from domain.hough_square import HoughSquareCollection
